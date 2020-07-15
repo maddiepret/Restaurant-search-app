@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Restaurants</name>
+    <description>
+        A app that finds all restaurants at your current location.
+    </description>
+    <author email="madelein.dupisanie@gmail.com" href="http://phonegap.com">
+        Madelein Pretorius
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*"/>
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src *;
+    style-src * 'unsafe-inline';
+    script-src * 'unsafe-inline'
+    media-src *;
+    img-src * data:;"/>
+</widget>
